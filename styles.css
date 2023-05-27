@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  position: relative;
+  text-align: center;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: inline-flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+
+.mainTitle {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  justify-content: left;
+  padding: 10px;
+  color: #20b8fe;
+  font-family: "Montserrat", sans-serif;
+}
+
+.blogDiscription {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.blogPosts > p {
+  display: flex;
+  justify-content: center;
+  padding: 0 250px 0 250px;
+  line-height: 2;
+  text-align: start;
+}
+
+.mainPost {
+  display: flex;
+  justify-content: center;
+}
+
